@@ -13,10 +13,10 @@ Routes
     Birds
     Reptiles
 Views
-    Pages
+    -Pages
         Home.ejs 
         animals-page.ejs (just text). (info om alla djur ska finnas) (info om djuren hämtas från denna sida.)
-    Partials
+    -Partials
         head.ejs
         header.ejs
         navbar menu.ejs
