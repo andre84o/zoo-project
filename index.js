@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 
 // app.use("/birds", ); //Sätt in birdRouter som andra parameter
 // app.use("/heroes", ); //Sätt in mammalsRouter som andra parameter
-// app.use("/gods", ); //Sätt in reptilesRouter som andra parameter
+// app.use("/reptiles", ); //Sätt in reptilesRouter som andra parameter
 
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
