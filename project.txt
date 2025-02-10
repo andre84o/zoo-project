@@ -1,0 +1,26 @@
+Node
+Index.js
+Data
+%%     heroes.js (with constructors and objects about Heroes and Anitheroes) %%
+    data.js (animals constructor)
+Public
+    Styles(CSS)
+    Images (mapp)
+    video
+    icons
+Routes
+    Mammals
+    Birds
+    Reptiles
+Views
+    Pages
+        Home.ejs 
+        animals-page.ejs (just text). (info om alla djur ska finnas) (info om djuren hämtas från denna sida.)
+    Partials
+        head.ejs
+        header.ejs
+        navbar menu.ejs
+        sidebar.ejs
+        main.ejs
+        footer.ejs
+Packages.json
