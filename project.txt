@@ -23,4 +23,4 @@ Views
         sidebar.ejs
         main.ejs
         footer.ejs
-Packages.json
+Packages.json.
