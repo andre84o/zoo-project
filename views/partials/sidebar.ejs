@@ -1,0 +1,12 @@
+<aside>
+    <h3>Explore more</h3>
+    <ul>
+        <% animals.forEach(animal => { %>
+            <li>
+                <a href="<%= animal.name.toLowerCase() %>">
+                    <%= animal.name %>
+                </a>
+            </li>
+        <% }) %>
+    </ul>
+</aside>

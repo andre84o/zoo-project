@@ -1,4 +1,5 @@
 import express from "express";
+import mammalsRouter from "./routes/mammals.js";
 
 const app = express();
 app.use(express.static("public"))
@@ -15,7 +16,7 @@ app.get("/", (req, res) => {
 });
 
 // app.use("/birds", ); //Sätt in birdRouter som andra parameter
-// app.use("/heroes", ); //Sätt in mammalsRouter som andra parameter
+app.use("/mammals", mammalsRouter);
 // app.use("/reptiles", ); //Sätt in reptilesRouter som andra parameter
 
 
