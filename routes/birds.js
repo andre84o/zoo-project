@@ -1,4 +1,4 @@
-const { DESTRUCTION } = require("dns");
+const { Description } = require("dns");
 const { name } = require("ejs");
 const express = require("express");
 const app = express();
