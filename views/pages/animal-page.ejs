@@ -7,10 +7,16 @@
         <% if (selectedAnimal) { %>
             <img src="<%= selectedAnimal.image %>" alt="<%= selectedAnimal.name %>">
             <p><%= selectedAnimal.description %></p>
+
+
+            
         <% } else { %>
             <p>Select an animal from the list.</p>
         <% } %>
     </div>
+    
+
+    
 
     <%- include("../partials/sidebar.ejs")%>
 </div>
