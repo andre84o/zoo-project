@@ -1,5 +1,5 @@
 import express from "express";
-// import animals from "../data/data.js";
+import animals from "../data/data.js";
 //Behöver vänta på att Andre är klar med att exportera animals.
 const mammalsRouter = express.Router();
 
