@@ -1,6 +1,7 @@
 import express from "express";
 import mammalsRouter from "./routes/mammals.js";
 import reptilesRouter from "./routes/reptiles.js";
+import birdsRouter from "./routes/birds.js";
 
 const app = express();
 app.use(express.static("public"))
@@ -16,9 +17,9 @@ app.get("/", (req, res) => {
     });
 });
 
-// app.use("/birds", ); //Sätt in birdRouter som andra parameter
+app.use("/birds", birdsRouter );
 app.use("/mammals", mammalsRouter);
-app.use("/reptiles", reptilesRouter); //Sätt in reptilesRouter som andra parameter
+app.use("/reptiles", reptilesRouter); 
 
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
