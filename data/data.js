@@ -1,5 +1,5 @@
 const Animals = [
-        {name: "Blue whale", 
+        {name: "Blue-whale", 
         lifespan: "80–90 years",
         group: "Mammals", 
         food: "Krill", 
@@ -8,7 +8,7 @@ const Animals = [
         weight: "200 tons", 
         found: "Atlantic,Pacific, Indian, and Southern"},
 
-        {name: "Killer whale", 
+        {name: "Killer-whale", 
         lifespan: "30–50 years", 
         group: "Mammals", 
         food: "Fish, squid, seals, sea lions, penguins, and even whales.", 
@@ -26,7 +26,7 @@ const Animals = [
         weight: "300 kg", 
         found: "oceans worldwide, ropical to temperate waters"},
 
-        {name:"Frill-necked lizard", 
+        {name:"Frill-necked-lizard", 
         lifespan:"20 years", 
         group:"Reptile", 
         food:"Small insects and spiders", 
@@ -35,7 +35,7 @@ const Animals = [
         weight:"1kg", 
         found:"Northern Australia"},
         
-        {name: "Hawksbill Turtle", 
+        {name: "Hawksbill-Turtle", 
         lifespan:"50 years", 
         group:"Reptile", 
         food:"Other animals (sponges & jellyfish), sea plants", 
@@ -71,7 +71,7 @@ const Animals = [
         weight:"300g", 
         found:"Australia wide"},
         
-        {name:"Yellow Tailed Black Cockatoo", 
+        {name:"Yellow-Tailed-Black-Cockatoo", 
         lifespan:"41 years", 
         group:"Bird", 
         food:"Fruit, seeds and other plant material", 
