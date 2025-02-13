@@ -81,4 +81,4 @@ const animals = [
         found:"SE Australia"}
 ];
 
-export default Animals;
+export default animals;
