@@ -5,7 +5,6 @@ const reptilesRouter = express.Router();
 
 reptilesRouter.get("/", (req, res )=> {
     res.render("pages/animal-page",{
-    
 
     })
 });

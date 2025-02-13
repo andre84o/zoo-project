@@ -13,8 +13,13 @@ app.get("/", (req, res) => {
         //Här skickar vi med variabler om våra ejs partials kräver data.
         pageTitle: "Home",
         testText: "This text should appear on the homepage",
+        footerinfo: 'Welcome to the Zoo!',
+        copyright: 'Copyright; 2024; Capybara 2',
+        
     });
 });
+
+
 
 // app.use("/birds", ); //Sätt in birdRouter som andra parameter
 app.use("/mammals", mammalsRouter);
