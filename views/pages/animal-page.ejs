@@ -7,9 +7,14 @@
         <% if (selectedAnimal) { %>
             <img src="<%= selectedAnimal.image %>" alt="<%= selectedAnimal.name %>">
             <p><%= selectedAnimal.description %></p>
+            <p><%= selectedAnimal.lifespan %></p>
+            <p><%= selectedAnimal.group %></p>
+            <p><%= selectedAnimal.food %></p>
+            <p><%= selectedAnimal.length %></p>
+            <p><%= selectedAnimal.weight %></p>
+            <p><%= selectedAnimal.found %></p>
 
-
-            
+             
         <% } else { %>
             <p>Select an animal from the list.</p>
         <% } %>
