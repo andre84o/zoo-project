@@ -1,4 +1,4 @@
-const Animals = [
+const animals = [
         {name: "Blue-whale", 
         lifespan: "80–90 years",
         group: "Mammals", 
